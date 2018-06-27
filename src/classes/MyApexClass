@@ -1,5 +1,8 @@
 public class MyApexClass{
 
-    System.debug('Hello World');
+    public static void printLog(){
+        System.debug('Hello World');
+        String temp;
+    }
 
 }
